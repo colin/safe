@@ -12,7 +12,7 @@ begin
     gem.authors  = ["Astrails Ltd."]
     gem.files = FileList["[A-Z]*.*", "{bin,examples,generators,lib,rails,spec,test,templates}/**/*", 'Rakefile', 'LICENSE*']
 
-    gem.add_dependency("aws-s3")
+    gem.add_dependency("right_aws")
 
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
