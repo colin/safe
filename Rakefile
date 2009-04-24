@@ -9,7 +9,7 @@ begin
     gem.description = "Simple tool to backup MySQL databases and filesystem locally or to Amazon S3 (with optional encryption)"
     gem.email = "we@astrails.com"
     gem.homepage = "http://github.com/astrails/safe"
-    gem.authors  = ["Astrails Ltd."]
+    gem.authors  = ["Astrails Ltd.", "Colin Schlueter"]
     gem.files = FileList["[A-Z]*.*", "{bin,examples,generators,lib,rails,spec,test,templates}/**/*", 'Rakefile', 'LICENSE*']
 
     gem.add_dependency("right_aws")
